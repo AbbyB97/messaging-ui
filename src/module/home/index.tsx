@@ -1,9 +1,15 @@
-import { Box } from "@chakra-ui/react";
+import { Divider, Stack } from "@chakra-ui/react";
+import ChatBox from "components/chat-box";
+import ChatList from "components/chat-list/inex";
 
 const HomeModule = () => {
   return (
     <>
-      <Box>Home mod</Box>
+      <Stack direction="row">
+        <ChatList />
+        <Divider h="90vh" orientation="vertical" />
+        <ChatBox />
+      </Stack>
     </>
   );
 };
