@@ -1,13 +1,10 @@
-import { Box, Container } from "@chakra-ui/react";
-import NavBar from "components/nav-bar";
-import { conatainerStyles } from "./styles";
+import { Box } from "@chakra-ui/react";
 
 const HomeModule = () => {
   return (
-    <Container {...conatainerStyles}>
-      <NavBar />
+    <>
       <Box>Home mod</Box>
-    </Container>
+    </>
   );
 };
 

@@ -8,11 +8,10 @@ const navContainerStyles: FlexProps = {
 
 const navHeadingStyhles: HeadingProps = {
     color: "white",
-    px: 2,
-    py: 1,
+    mx: 3,
     fontWeight: 600,
     fontSize: "20px",
-
+    my:"auto"
 }
 
 export { navContainerStyles, navHeadingStyhles }
