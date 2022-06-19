@@ -96,6 +96,7 @@ const ActiveChat = () => {
                       }
                     />
                     <Icon
+                      _hover={{cursor:"pointer"}}
                       as={RiDeleteBin2Line}
                       onClick={() => dispatch(deleteText(i))}
                     />
@@ -116,10 +117,8 @@ const ActiveChat = () => {
               fontSize="sm"
               autoComplete="off"
               w="full"
-              // bg="gray.100"
               placeholder="Enter a contact name to get started"
               {...register("text")}
-              // type="submit"
             />
           </FormControl>
           <HStack>
