@@ -4,7 +4,7 @@ import { navContainerStyles, navHeadingStyhles } from "./styles";
 const NavBar = () => {
   return (
     <Flex {...navContainerStyles}>
-      <Heading {...navHeadingStyhles}>Smarter.Codes</Heading>
+      <Heading {...navHeadingStyhles}>Simple Chat</Heading>
     </Flex>
   );
 };
